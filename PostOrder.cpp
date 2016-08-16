@@ -23,3 +23,6 @@ void tambah(Node **root, int databaru)
             printf("Data bertambah!");
       }
 
+      else if(databaru<(*root)->data)
+            tambah(&(*root)->kiri, databaru);
+
