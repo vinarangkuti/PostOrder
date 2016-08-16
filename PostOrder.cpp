@@ -31,3 +31,6 @@ void tambah(Node **root, int databaru)
             printf("Data sudah ada!");
 }
 
+void preOrder(Node *root)
+{
+
