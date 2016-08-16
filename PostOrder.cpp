@@ -109,5 +109,14 @@ int main()
                   else
                         printf("Masih kosong!");
                   break;
+
+                  printf("\nOUTPUT POST ORDER : ");
+                  printf("\n------------------\n");
+                  if(pohon!=NULL)
+                       //panggil fungsi untuk mencetak data secara postOrder
+                        postOrder(pohon);
+                  else
+                        printf("Masih kosong!");
+                  break;
            
 
