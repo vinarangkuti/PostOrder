@@ -81,4 +81,12 @@ int main()
             scanf("%d", &pil);
             switch(pil)
             {
+        case 1 :
+                  printf("\nINPUT : ");
+                  printf("\n-------");
+                  printf("\nData baru : ");
+                  scanf("%d", &data);
+                  //panggil fungsi untuk menambah node yang berisi data pada tree
+                  tambah(&pohon, data);
+                  break;
 
