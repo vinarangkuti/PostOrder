@@ -90,3 +90,15 @@ int main()
                   tambah(&pohon, data);
                   break;
 
+                  case 2 :
+                  printf("\nOUTPUT PRE ORDER : ");
+                  printf("\n------------------\n");
+                  if(pohon!=NULL)
+                       //panggil fungsi untuk mencetak data secara preOrder
+                        preOrder(pohon);
+                  else
+                        printf("Masih kosong!");
+                  break;
+
+                  
+
