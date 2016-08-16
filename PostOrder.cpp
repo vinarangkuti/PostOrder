@@ -57,4 +57,6 @@ void postOrder(Node *root)
             printf("%d ", root->data);
       }
 }
+int main()
+{
 
