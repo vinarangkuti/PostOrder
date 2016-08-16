@@ -40,4 +40,6 @@ void preOrder(Node *root)
       }
 }
 
+void inOrder(Node *root)
+{
 
