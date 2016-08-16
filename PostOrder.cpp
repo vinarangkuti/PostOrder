@@ -121,5 +121,7 @@ int main()
                   }
             _getch();
       }while(pil != 5); 
-           
+      return EXIT_FAILURE;
+}
+
 
