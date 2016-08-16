@@ -27,4 +27,7 @@ void tambah(Node **root, int databaru)
             tambah(&(*root)->kiri, databaru);
         else if(databaru>(*root)->data)
             tambah(&(*root)->kanan, databaru);
+        else if(databaru == (*root)->data)
+            printf("Data sudah ada!");
+}
 
