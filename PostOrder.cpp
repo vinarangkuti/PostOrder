@@ -7,3 +7,5 @@ struct Node{
       Node *kiri;
       Node *kanan;
 };
+void tambah(Node **root, int databaru)
+{
