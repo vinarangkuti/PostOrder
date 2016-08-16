@@ -118,5 +118,8 @@ int main()
                   else
                         printf("Masih kosong!");
                   break;
+                  }
+            _getch();
+      }while(pil != 5); 
            
 
