@@ -48,4 +48,6 @@ void inOrder(Node *root)
             inOrder(root->kanan);
       }
 }
+void postOrder(Node *root)
+{
 
