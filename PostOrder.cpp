@@ -33,4 +33,11 @@ void tambah(Node **root, int databaru)
 
 void preOrder(Node *root)
 {
+	 if(root != NULL){
+            printf("%d ", root->data);
+            preOrder(root->kiri);
+            preOrder(root->kanan);
+      }
+}
+
 
