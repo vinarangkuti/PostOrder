@@ -100,5 +100,14 @@ int main()
                         printf("Masih kosong!");
                   break;
 
-                  
+                   case 3 :
+                  printf("\nOUTPUT IN ORDER : ");
+                  printf("\n------------------\n");
+                  if(pohon!=NULL)
+                       //panggil fungsi untuk mencetak data secara inOrder
+                        inOrder(pohon);
+                  else
+                        printf("Masih kosong!");
+                  break;
+           
 
