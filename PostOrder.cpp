@@ -60,3 +60,10 @@ void postOrder(Node *root)
 int main()
 {
 
+	 int pil, data;// c;
+      Node *pohon; //*t;
+      pohon = NULL; //inisialisasi node pohon
+      //perulangan do-while
+      do
+      {
+
