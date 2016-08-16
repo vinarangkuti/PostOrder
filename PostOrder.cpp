@@ -11,3 +11,4 @@ void tambah(Node **root, int databaru)
 {
 	if((*root) == NULL)
       {
+      	  Node *baru;
