@@ -17,3 +17,5 @@ void tambah(Node **root, int databaru)
       	baru->data = databaru;
         baru->kiri = NULL;
         baru->kanan = NULL;
+         (*root) = baru;
+            (*root)->kiri = NULL;
