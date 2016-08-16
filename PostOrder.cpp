@@ -67,3 +67,18 @@ int main()
       do
       {
 
+      	system("cls"); //bersihkan layar
+            printf("\t#PROGRAM TREE C++#");
+            printf("\n\t==================");
+            printf("\nMENU");
+            printf("\n----\n");
+            printf("1. Tambah\n");
+            printf("2. Lihat pre-order\n");
+            printf("3. Lihat in-order\n");
+            printf("4. Lihat post-order\n");
+            printf("5. Exit\n");
+            printf("Pilihan : ");
+            scanf("%d", &pil);
+            switch(pil)
+            {
+
