@@ -13,3 +13,7 @@ void tambah(Node **root, int databaru)
       {
       	  Node *baru;
       	   baru = new Node;
+
+      	baru->data = databaru;
+        baru->kiri = NULL;
+        baru->kanan = NULL;
